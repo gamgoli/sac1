@@ -30,5 +30,5 @@ render(){
 	this._root.textContent = `Hello Custom Widget clientWidth: ${this.clientWidth}, clientHeight: ${this.clientHeight}`
 }
 }
-customElements.define('com-sap-sac-exercise-ysg001-main', Main)
+customElements.define('com-sap-sac-exercise-hoseong002-main', Main)
 })()
