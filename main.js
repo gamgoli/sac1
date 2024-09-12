@@ -94,5 +94,6 @@ var parseMetadata = metadata => {
     }
   }
 
-customElements.define('com-sap-sac-exercise-hoseong005-main', Main)
+
+customElements.define('com-sap-sac-exercise-hoseong004-main', Main)
 })()
