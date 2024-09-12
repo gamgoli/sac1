@@ -14,6 +14,20 @@ this._shadowRoot = this.attachShadow({ mode: 'open' })
 this._shadowRoot.appendChild(template.content.cloneNode(true))
 this._root = this._shadowRoot.getElementById('root')
 }
+
+		onCustomWidgetResize(width, height){
+			this.render()
+		}
+
+		onCustomWidgetAfterUpdate(changedProps){
+		}
+		
+		onCustomWidgetDestroy(){
+		}
+
+		render(){
+			this._root.textContext = 'Hello Custom Widget ClientWidth : ${this.clientWidth}, ClientHeight : ${this.clientHeight}'
+		}
 }
 customElements.define('com-sap-sac-exercise-hoseong002-main', Main)
 })()
