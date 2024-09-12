@@ -37,5 +37,5 @@ class Main extends HTMLElement {
 	}
 }
 
-customElements.define('com-sap-sac-exercise-hoseong002-main', Main)
+customElements.define('com-sap-sac-exercise-hoseong003-main', Main)
 })()
